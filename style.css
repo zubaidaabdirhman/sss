@@ -1,0 +1,78 @@
+button{
+  border: none;
+  padding: 10px 25px;
+  background: #00f;
+  color: white;
+  font-family: verdana;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 20px 10px 20px 10px gray;
+}
+button:hover{
+  background: rgb(64, 64, 196);
+}
+body{
+  text-align: center;
+}
+#mylabel{
+  display: block;
+  margin: 20px 0;
+  font-size: 2rem;
+  font-family: verdana;
+}
+h2{
+  font-family: verdana;
+}
+.mytitle{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+#mytitle{
+  background-color: blue;
+  color: #fff;
+  width: 400px;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-family: verdana;
+  box-shadow: 20px 10px 20px 10px gray;
+}
+#mytitle:hover{
+background: blue;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
+display: none;
+}
+
+.social-icons{
+  display: flex;
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+.social-icons i{
+color: blue;
+font-size: 2rem;
+margin-top: 15px;
+}
+.social-icons i:hover{
+  color: fuchsia;
+  transform: translateX(-30%);
+  font-size: 2.5rem;
+}
+h2{
+color: blue;
+font-family: sans-serif;
+font-weight: lighter;
+font-size: 30px;
+
+}
+h2:hover{
+  color: fuchsia;
+}
